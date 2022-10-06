@@ -1,0 +1,272 @@
+/****************** GENERAL *****************/
+
+html body.loaded { padding: 0 }
+.cd-slider-nav nav { width: 500px; }
+.cd-hero nav a, #tmNavbar > ul > li a {
+    color: #fff;
+    font-weight: bold;
+}
+div.tm-about-page { padding-top: 30px; }
+div.tm-about-page h1 { padding-bottom: 10px;}
+span.helvetica { 
+    font-family: "Helvetica";
+    /*font-weight: 100;*/
+    font-style: italic;
+}
+span.helvetica-bold {
+    font-weight: bold;
+    padding-left: 2px;
+}
+strong.cible { 
+    color: #fff;
+    margin: 5px 0 0 0;
+    padding: 1.75px 10px 2.5px 10px;
+    border-radius: 10px;
+    float: right;
+    font-size: 0.75em;
+}
+
+.sidebar a i.fa.fa-home.fa-3x {
+    padding: 0 0 1rem 0.55rem;
+}
+
+a.navbar-brand.text-uppercase { 
+    position: relative;
+    right: 100px;
+}
+
+ul.cd-hero-slider p.tm-text { line-height: 22px; }
+
+footer { margin-left: 70px;}
+footer img { padding-right: 70px; }
+
+/****************** VITALITE *****************/
+
+li.selected.vitalite > div { background-color: rgba(242, 142, 0, 1); }
+li.selected.vitalite h2.tm-text-title { 
+    color: #f47920;
+    font-size: 2.5rem;
+}
+li.selected.vitalite h1 { 
+    color: #ffe2ae;
+    font-size: 4rem;
+}
+strong.cible-vitalite, .picto-vitalite.active, a.picto-vitalite:hover { background-color: #f28e00; }
+
+/****************** DIGESTIF *****************/
+
+li.selected.digestif > div { background-color: rgba(92, 148, 126, 1); }
+li.selected.digestif h2.tm-text-title { 
+    color: #164539;
+    font-size: 2.5rem;
+}
+li.selected.digestif h1 { 
+    color: #c6e6db;
+    font-size: 4rem;
+}
+strong.cible-digestif, .picto-digestif.active, a.picto-digestif:hover { background-color: #5c947e; }
+
+/****************** OSTEO *****************/
+
+li.selected.osteo > div { background-color: rgba(0, 138, 137, 1); }
+li.selected.osteo h2.tm-text-title { 
+    color: #006762;
+    font-size: 2.5rem;
+}
+li.selected.osteo h1 { 
+    color: #c4e7eb;
+    font-size: 4rem;
+}
+strong.cible-osteo, .picto-osteo.active, a.picto-osteo:hover { background-color: #008a89; }
+
+/****************** DEFENSES *****************/
+
+li.selected.defenses > div { background-color: rgba(0, 83, 161, 1); }
+li.selected.defenses h2.tm-text-title { 
+    color: #023f88;
+    font-size: 2.5rem;
+}
+li.selected.defenses h1 { 
+    color: #c7d8ef;
+    font-size: 4rem;
+}
+strong.cible-defenses, .picto-defenses.active, a.picto-defenses:hover { background-color: #0053a1; }
+
+/****************** DETENTE *****************/
+
+li.selected.detente > div { background-color: rgba(199, 135, 186, 1); }
+li.selected.detente h2.tm-text-title { 
+    color: #543351;
+    font-size: 2.5rem;
+}
+li.selected.detente h1 { 
+    color: #ecd8e9;
+    font-size: 4rem;
+}
+strong.cible-detente, .picto-detente.active, a.picto-detente:hover { background-color: #c787ba; }
+
+/****************** CIRCULATION *****************/
+
+li.selected.circulation > div { background-color: rgba(153, 10, 44, 1); }
+li.selected.circulation h2.tm-text-title { 
+    color: #6a1124;
+    font-size: 2.5rem;
+}
+li.selected.circulation h1 { 
+    color: #f8bdce;
+    font-size: 4rem;
+}
+strong.cible-circulation, .picto-circulation.active, a.picto-circulation:hover { background-color: #990A2C; }
+
+/****************** DETOX *****************/
+
+li.selected.detox > div { background-color: rgba(123, 187, 88, 1); }
+li.selected.detox h2.tm-text-title { 
+    color: #328c4f;
+    font-size: 2.5rem;
+}
+li.selected.detox h1 { 
+    color: #deedcf;
+    font-size: 4rem;
+}
+strong.cible-detox, .picto-detox.active, a.picto-detox:hover { background-color: #7bbb58; }
+
+/****************** FEMME *****************/
+
+li.selected.femme > div { background-color: rgba(223, 0, 110, 1); }
+li.selected.femme h2.tm-text-title { 
+    color: #b1005d;
+    font-size: 2.5rem;
+}
+li.selected.femme h1 { 
+    color: #f8bdd7;
+    font-size: 4rem;
+}
+strong.cible-femme, .picto-femme.active, a.picto-femme:hover { background-color: #df006e; }
+
+/****************** ENFANTS *****************/
+
+li.selected.enfants > div { background-color: rgba(97, 164, 216, 1); }
+li.selected.enfants h2.tm-text-title { 
+    color: #0082b6;
+    font-size: 2.5rem;
+}
+li.selected.enfants h1 { 
+    color: #b7dff7;
+    font-size: 4rem;
+}
+strong.cible-enfants, .picto-enfants.active, a.picto-enfants:hover { background-color: #61A4D8; }
+
+/****************** MICROBIOTE *****************/
+
+li.selected.microbiote > div { background-color: rgba(128, 119, 111, 1); }
+li.selected.microbiote h2.tm-text-title { 
+    color: #443F3C;
+    font-size: 2.5rem;
+}
+li.selected.microbiote h1 { 
+    color: #C1B4AA;
+    font-size: 4rem;
+}
+strong.cible-microbiote, .picto-microbiote.active, a.picto-microbiote:hover { background-color: #80776F; }
+
+/****************** PHYTOMINERAUX *****************/
+
+li.selected.phyto > div { background-color: rgba(127, 187, 66, 1); }
+li.selected.phyto h2.tm-text-title { 
+    color: #17488b;
+    font-size: 2.5rem;
+}
+li.selected.phyto h1 { 
+    color: #ecf5e3;
+    font-size: 4rem;
+}
+strong.cible-phyto, .picto-phyto.active, a.picto-phyto:hover { background-color: #7fbb42; }
+
+/****************** CORPORATE *****************/
+
+li.selected.corporate > div { background-color: rgba(0, 149, 219, 1); }
+li.selected.corporate h2.tm-text-title { 
+    color: #00468e;
+    font-size: 2.5rem;
+}
+li.selected.corporate h1 { 
+    color: #acd9f5;
+    font-size: 4rem;
+}
+
+strong.cible-corporate, .picto-corporate.active, a.picto-corporate:hover { background-color: #0095db; }
+
+/****************** SPORT *****************/
+
+li.selected.sport > div { background-color: rgba(29, 29, 26, 1); }
+li.selected.sport h2.tm-text-title { 
+    color: #008da8;
+    font-size: 2.5rem;
+}
+li.selected.sport h1 { 
+    color: #99bb3c;
+    font-size: 4rem;
+}
+strong.cible-sport, .picto-sport.active, a.picto-sport:hover { background-color: #1d1d1a; }
+
+/****************** PREPARATION *****************/
+
+li.selected.preparation > div { background-color: rgba(244, 161, 0, 1); }
+li.selected.preparation h2.tm-text-title { 
+    color: #a36c00;
+    font-size: 2.5rem;
+}
+li.selected.preparation h1 { 
+    color: #fad997;
+    font-size: 4rem;
+}
+strong.cible-preparation, .picto-preparation.active, a.picto-preparation:hover { background-color: #f4a100; }
+
+/****************** PERFORMANCE *****************/
+
+li.selected.performance > div { background-color: rgba(227, 6, 19, 1); }
+li.selected.performance h2.tm-text-title { 
+    color: #8d1210;
+    font-size: 2.5rem;
+}
+li.selected.performance h1 { 
+    color: #ff7676;
+    font-size: 4rem;
+}
+strong.cible-performance, .picto-performance.active, a.picto-performance:hover { background-color: #e30613; }
+
+/****************** RECUPERATION *****************/
+
+li.selected.recuperation > div { background-color: rgba(0, 131, 165, 1); }
+li.selected.recuperation h2.tm-text-title { 
+    color: #00617a;
+    font-size: 2.5rem;
+}
+li.selected.recuperation h1 { 
+    color: #8cc9d8;
+    font-size: 4rem;
+}
+strong.cible-recuperation, .picto-recuperation.active, a.picto-recuperation:hover { background-color: #0083a5; }
+
+/****************** IMAGES *****************/
+
+img.img-fluid.img-center-95 { margin-left: 3%; }
+img.img-fluid.img-center-90 { margin-left: 5%; }
+img.img-fluid.img-center-85 { margin-left: 8%; }
+img.img-fluid.img-center-80 { margin-left: 10%; }
+img.img-fluid.img-center-75 { margin-left: 12.5%; }
+img.img-fluid.img-center-70 { margin-left: 15%; }
+img.img-fluid.img-center-65 { margin-left: 17.5%; }
+img.img-fluid.img-center-60 { margin-left: 20%; }
+img.img-fluid.img-center-55 { margin-left: 23.5%; }
+img.img-fluid.img-center-50 { margin-left: 25%; }
+img.img-fluid.img-center-45 { margin-left: 27.5%; }
+img.img-fluid.img-center-40 { margin-left: 30%; }
+img.img-fluid.img-center-30 { margin-left: 35%; }
+img.img-fluid.img-center-25 { margin-left: 39%; }
+
+/****************** FOOTER *****************/
+
+footer { text-align: center; }
+footer img { padding-bottom: 20px; }
